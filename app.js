@@ -97,19 +97,16 @@
   }
   function usedSummary(list) {
     const prices = list.map((l) => l.price);
-    const inBudget = list.filter((l) => l.price <= ui.budget);
     const cheapest = list[0] ? list.reduce((a, b) => (a.price <= b.price ? a : b)) : null;
     const best = R.sortListings(list.filter((l) => l.dev != null), "value")[0];
     const bsrc = (data.used.sources || []).filter((s) => s.status === "ok").map((s) => s.name).join(" + ");
     return `<section class="card" data-test="used-summary">
       <div class="row between"><h2>Used Model Y · southern Sweden</h2><span class="faint">${date(data.used.generated_at)}</span></div>
       <div class="big"><span data-test="used-count">${list.length}</span> <small>cars match · of ${scored.length}</small></div>
-      <div class="stats">
+      <div class="stats two">
         <div><span class="faint">Cheapest</span><b>${cheapest ? kr(cheapest.price) : "–"}</b><span class="muted">${cheapest ? cheapest.year + " · " + tkr(cheapest.km) + " km" : ""}</span></div>
         <div><span class="faint">Median</span><b data-test="median">${kr(R.median(prices))}</b><span class="muted">asking price</span></div>
-        <div><span class="faint">≤ budget</span><b data-test="in-budget">${inBudget.length}</b><span class="muted">${kr(ui.budget)}</span></div>
       </div>
-      ${inBudget.length === 0 && cheapest ? `<p class="muted">Nothing at or under your ${kr(ui.budget)} budget right now — the cheapest matching car is ${kr(cheapest.price)} (${kr(cheapest.price - ui.budget)} over).</p>` : ""}
       ${best ? `<p class="muted">Best value vs the price model: <a href="${esc(best.url)}" target="_blank" rel="noopener">${esc(best.year)} ${esc(variantShort(best.variant))}, ${tkr(best.km)} km, ${kr(best.price)}</a> <span class="dev-neg">${pct(best.dev)}</span></p>` : ""}
       <p class="faint">${esc(bsrc)} · regions: ${esc((data.used.regions || []).join(", "))}</p>
     </section>`;
@@ -126,7 +123,6 @@
       <div class="inputs">
         <label>Max price (kr)<input type="number" inputmode="numeric" step="10000" min="0" placeholder="any" value="${ui.maxPrice || ""}" data-ui="maxPrice"></label>
         <label>Max km<input type="number" inputmode="numeric" step="10000" min="0" placeholder="any" value="${ui.maxKm || ""}" data-ui="maxKm"></label>
-        <label>Budget (kr)<input type="number" inputmode="numeric" step="10000" min="0" value="${ui.budget}" data-ui="budget"></label>
       </div>
     </section>`;
   }

@@ -102,6 +102,7 @@ nav.tabs button[aria-selected="true"] { background: var(--accent); color: var(--
 .big { font-size: 2.3rem; font-weight: 750; letter-spacing: -0.03em; line-height: 1.1; margin-top: 6px; }
 .big small { font-size: 1rem; font-weight: 500; color: var(--muted); letter-spacing: 0; }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
+.stats.two { grid-template-columns: repeat(2, 1fr); }
 .stats div { background: var(--surface-2); border-radius: 12px; padding: 8px 10px; display: flex; flex-direction: column; min-width: 0; }
 .stats b { font-size: 1.05rem; }
 
@@ -130,8 +131,6 @@ input, select {
 .chart { width: 100%; height: auto; display: block; margin-top: 4px; touch-action: manipulation; }
 .chart .gl { stroke: var(--grid-line); stroke-width: 1; }
 .chart .ax { fill: var(--faint); font-size: 10.5px; }
-.chart .budget { stroke: var(--great); stroke-width: 1.5; stroke-dasharray: 6 4; }
-.chart .budget-t { fill: var(--great); font-size: 10px; font-weight: 600; }
 .chart .fit { stroke-width: 2; opacity: 0.55; fill: none; stroke-dasharray: 2 0; }
 .chart .pt { cursor: pointer; stroke: var(--surface); stroke-width: 0.8; fill-opacity: 0.9; }
 .chart .pt.jun { stroke: var(--text); stroke-width: 1.6; }
