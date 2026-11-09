@@ -1,0 +1,180 @@
+{
+ "generated_at": "2026-11-09T13:24:49.216Z",
+ "variants": [
+  {
+   "id": "RWD",
+   "name": "Model Y Bakhjulsdrift (Standard)",
+   "prices": [
+    {
+     "price": 499990,
+     "range_km": 525,
+     "kw": 220,
+     "source_name": "Bilissimo",
+     "source_url": "https://bilissimo.se/model/116-tesla-model-y",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "9 november 2026"
+    },
+    {
+     "price": 499990,
+     "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
+     "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "7 november 2026"
+    }
+   ],
+   "price": 499990,
+   "range_km": 525,
+   "agree": true
+  },
+  {
+   "id": "LR_RWD",
+   "name": "Model Y Premium Long Range RWD",
+   "prices": [
+    {
+     "price": 622990,
+     "range_km": 603,
+     "kw": 220,
+     "source_name": "Bilissimo",
+     "source_url": "https://bilissimo.se/model/116-tesla-model-y",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "9 november 2026"
+    },
+    {
+     "price": 622990,
+     "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
+     "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "7 november 2026"
+    }
+   ],
+   "price": 622990,
+   "range_km": 603,
+   "agree": true
+  },
+  {
+   "id": "LR_AWD",
+   "name": "Model Y Premium Long Range AWD",
+   "prices": [
+    {
+     "price": 659990,
+     "range_km": 622,
+     "kw": 378,
+     "source_name": "Bilissimo",
+     "source_url": "https://bilissimo.se/model/116-tesla-model-y",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "9 november 2026"
+    },
+    {
+     "price": 659990,
+     "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
+     "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "7 november 2026"
+    }
+   ],
+   "price": 659990,
+   "range_km": 622,
+   "agree": true
+  },
+  {
+   "id": "PERF",
+   "name": "Model Y Performance AWD",
+   "prices": [
+    {
+     "price": 729990,
+     "range_km": 580,
+     "kw": 393,
+     "source_name": "Bilissimo",
+     "source_url": "https://bilissimo.se/model/116-tesla-model-y",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "9 november 2026"
+    },
+    {
+     "price": 729990,
+     "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
+     "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
+     "fetched_at": "2026-11-09T13:24:49.216Z",
+     "source_updated": "7 november 2026"
+    }
+   ],
+   "price": 729990,
+   "range_km": 580,
+   "agree": true
+  }
+ ],
+ "financing": [
+  {
+   "name": "Tesla restvärdeslån (Model Y RWD)",
+   "cash": 99998,
+   "cash_pct": 20,
+   "months": 60,
+   "monthly": 3339,
+   "rate_pct": 0.99,
+   "mil_per_year": 1000,
+   "note": "Leaves a balloon (restskuld) at the end. Performance from 1,99 %. Excl. insurance and service.",
+   "source_name": "kostnader.se (cites Tesla)",
+   "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
+   "fetched_at": "2026-11-09T13:24:49.216Z"
+  }
+ ],
+ "incentives": [
+  {
+   "id": "tesla-bonus-ended",
+   "title": "Tesla's 50 000 kr \"Tesla-bonus\" on Model Y RWD has ended",
+   "text": "Tesla removed the 50 000 kr bonus it introduced in April; Model Y RWD went back from 449 900 to 499 900 kr (Allt om Elbil, 4 Nov 2026 — Tesla's own list price is 499 990 kr per Bilissimo/kostnader.se).",
+   "source_name": "Allt om Elbil",
+   "source_url": "https://alltomelbil.se/tesla-slopar-bonusen-pa-instegsmodellen-model-y-blir-50-000-kronor-dyrare/",
+   "verify": "bonusen",
+   "published": "2026-11-04",
+   "verified": true,
+   "checked_at": "2026-11-09T13:24:49.216Z",
+   "http": 200
+  },
+  {
+   "id": "elbilspremie",
+   "title": "Elbilspremien (state EV support) — Model Y not eligible",
+   "text": "Since 18 Mar 2026 you can apply for elbilspremien, up to 1 300 kr/month for 3 years; means-tested, rural areas only, and the car must cost at most 450 000 kr. Every Model Y version is above the cap now that the bonus is gone.",
+   "source_name": "Elbilsvaruhuset",
+   "source_url": "https://elbilsvaruhuset.se/tesla-pris/",
+   "verify": "450 000",
+   "verified": true,
+   "checked_at": "2026-11-09T13:24:49.216Z",
+   "http": 200
+  }
+ ],
+ "delivery": {
+  "available": false,
+  "note": "Tesla's own site (where delivery estimates live) blocks automated requests, so no delivery estimate is fetched. Check the design studio.",
+  "url": "https://www.tesla.com/sv_se/modely/design"
+ },
+ "sources": [
+  {
+   "name": "Tesla Sverige (/sv_se/modely/design)",
+   "url": "https://www.tesla.com/sv_se/modely/design",
+   "status": "blocked (HTTP 403)",
+   "fetched_at": "2026-11-09T13:24:49.216Z"
+  },
+  {
+   "name": "Tesla Sverige (/sv_se/modely)",
+   "url": "https://www.tesla.com/sv_se/modely",
+   "status": "blocked (HTTP 403)",
+   "fetched_at": "2026-11-09T13:24:49.216Z"
+  },
+  {
+   "name": "Bilissimo",
+   "url": "https://bilissimo.se/model/116-tesla-model-y",
+   "status": "ok",
+   "count": 4,
+   "source_updated": "9 november 2026",
+   "fetched_at": "2026-11-09T13:24:49.216Z"
+  },
+  {
+   "name": "kostnader.se",
+   "url": "https://kostnader.se/bil/tesla-model-y-kostnad",
+   "status": "ok",
+   "count": 4,
+   "source_updated": "7 november 2026",
+   "fetched_at": "2026-11-09T13:24:49.216Z"
+  }
+ ]
+}

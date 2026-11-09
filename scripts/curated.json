@@ -1,0 +1,22 @@
+{
+  "_note": "Facts that can't be scraped as structured data. The fetcher re-checks that each source page still contains `verify` and records the check date. Edit by hand when the source changes.",
+  "incentives": [
+    {
+      "id": "tesla-bonus-ended",
+      "title": "Tesla's 50 000 kr \"Tesla-bonus\" on Model Y RWD has ended",
+      "text": "Tesla removed the 50 000 kr bonus it introduced in April; Model Y RWD went back from 449 900 to 499 900 kr (Allt om Elbil, 4 Nov 2026 — Tesla's own list price is 499 990 kr per Bilissimo/kostnader.se).",
+      "source_name": "Allt om Elbil",
+      "source_url": "https://alltomelbil.se/tesla-slopar-bonusen-pa-instegsmodellen-model-y-blir-50-000-kronor-dyrare/",
+      "verify": "bonusen",
+      "published": "2026-11-04"
+    },
+    {
+      "id": "elbilspremie",
+      "title": "Elbilspremien (state EV support) — Model Y not eligible",
+      "text": "Since 18 Mar 2026 you can apply for elbilspremien, up to 1 300 kr/month for 3 years; means-tested, rural areas only, and the car must cost at most 450 000 kr. Every Model Y version is above the cap now that the bonus is gone.",
+      "source_name": "Elbilsvaruhuset",
+      "source_url": "https://elbilsvaruhuset.se/tesla-pris/",
+      "verify": "450 000"
+    }
+  ]
+}
