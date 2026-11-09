@@ -1,4 +1,4 @@
-/* Model Y Radar — UI. Plain JS, no build step. Data comes from data/*.json (made by scripts/fetch-data.mjs). */
+/* Tesla Radar — UI. Plain JS, no build step. Data comes from data/*.json (made by scripts/fetch-data.mjs). */
 (function () {
   "use strict";
   const R = window.Radar;
@@ -63,7 +63,7 @@
     const dark = document.documentElement.getAttribute("data-theme") !== "light";
     return `<header class="top">
       <div class="logo">${LOGO}</div>
-      <div class="title"><h1>Model Y Radar</h1><p>Tesla Model Y in Sweden · used · new · leasing</p></div>
+      <div class="title"><h1>Tesla Radar</h1><p>Tesla Model Y in Sweden · used · new · leasing</p></div>
       <button class="icon-btn" data-action="reload" aria-label="Reload data">${ICON_REFRESH}</button>
       <button class="icon-btn" data-action="theme" aria-label="${dark ? "Switch to light mode" : "Switch to dark mode"}">${dark ? ICON_SUN : ICON_MOON}</button>
     </header>`;
@@ -136,7 +136,7 @@
     const W = 420, H = 300, L = 40, Rr = 8, T = 12, B = 26;
     if (!list.length) return `<section class="card"><h2>Price map</h2><div class="readout">No cars match the filters.</div></section>`;
     const byKm = ui.chart === "km";
-    const prices = list.map((l) => l.price).concat([ui.budget]);
+    const prices = list.map((l) => l.price);
     const pmin = Math.min(...prices), pmax = Math.max(...prices);
     const ps = niceStep(pmax - pmin || 1, 5), y0 = Math.floor(pmin / ps) * ps, y1 = Math.ceil(pmax / ps) * ps;
     const y = (v) => T + (H - T - B) * (1 - (v - y0) / (y1 - y0));
@@ -157,8 +157,6 @@
     } else {
       for (let yr = Math.ceil(xmin); yr <= xmax; yr++) g += `<text x="${L + (W - L - Rr) * (yr - xmin) / (xmax - xmin)}" y="${H - 9}" class="ax" text-anchor="middle">${yr}</text>`;
     }
-    // budget line
-    g += `<line x1="${L}" x2="${W - Rr}" y1="${y(ui.budget)}" y2="${y(ui.budget)}" class="budget"/><text x="${W - Rr - 4}" y="${y(ui.budget) - 5}" class="budget-t" text-anchor="end">budget ${tkr(ui.budget)}</text>`;
     // fitted price lines (km chart): per variant shown, at that group's median model year
     if (byKm && model) {
       const groups = {};

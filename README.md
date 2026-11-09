@@ -1,11 +1,11 @@
-# Model Y Radar
+# Tesla Radar
 
 Small installable web app (PWA) for judging **Tesla Model Y prices in Sweden** three ways — used, new and private leasing — plus a rough cost-of-ownership comparison.
 Plain HTML/CSS/JS, no build step. Works under any sub-path (e.g. `https://fambeho75.github.io/<repo>/`).
 
 - **Used** — Model Y ads in southern Sweden (Skåne, Halland, Blekinge, Kronoberg, Jönköping, Kalmar, Västra Götaland, Östergötland), Juniper (2025 refresh) and older.
   Price-vs-km and price-vs-model-year scatter, a fitted price model, value badges (Good = 7 %+ under the model, Great = 15 %+, Pricey = 10 %+ over),
-  filters for variant, generation, region, max price, max km, a budget line (default 250 000 kr). Every row links to its ad.
+  filters for variant, generation, region, max price, max km. Every row links to its ad.
 - **New** — Tesla Sverige list prices per version (cash, incl. moms, no options), each with its source(s) and fetch date; incentives and Tesla financing.
 - **Leasing** — Tesla privatleasing, GoMore (insurance + service + tyres included) and leasing ads on Blocket (Ayvens Release used-car leasing, dealer campaigns):
   monthly price, term, km/year, down payment, fees and total over the contract.

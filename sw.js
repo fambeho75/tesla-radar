@@ -1,7 +1,7 @@
-/* Model Y Radar — offline cache.
+/* Tesla Radar — offline cache.
    App shell: cache-first with background refresh (bump CACHE + ?v= when HTML/CSS/JS change).
    data/*.json: network-first, falls back to the last cached snapshot. */
-const CACHE = "myradar-v1";
+const CACHE = "myradar-v2";
 const DATA_CACHE = "myradar-data-v1";
 const ASSETS = [
   "./", "./index.html", "./styles.css?v=1", "./radar.js?v=1", "./app.js?v=1",
