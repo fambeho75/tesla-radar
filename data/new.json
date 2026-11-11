@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T06:05:19.097Z",
+ "generated_at": "2026-11-11T05:57:40.657Z",
  "variants": [
   {
    "id": "RWD",
@@ -11,14 +11,14 @@
      "kw": 220,
      "source_name": "Bilissimo",
      "source_url": "https://bilissimo.se/model/116-tesla-model-y",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
-     "source_updated": "9 november 2026"
+     "fetched_at": "2026-11-11T05:57:40.657Z",
+     "source_updated": "10 november 2026"
     },
     {
      "price": 499990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
+     "fetched_at": "2026-11-11T05:57:40.657Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -36,14 +36,14 @@
      "kw": 220,
      "source_name": "Bilissimo",
      "source_url": "https://bilissimo.se/model/116-tesla-model-y",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
-     "source_updated": "9 november 2026"
+     "fetched_at": "2026-11-11T05:57:40.657Z",
+     "source_updated": "10 november 2026"
     },
     {
      "price": 622990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
+     "fetched_at": "2026-11-11T05:57:40.657Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -61,14 +61,14 @@
      "kw": 378,
      "source_name": "Bilissimo",
      "source_url": "https://bilissimo.se/model/116-tesla-model-y",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
-     "source_updated": "9 november 2026"
+     "fetched_at": "2026-11-11T05:57:40.657Z",
+     "source_updated": "10 november 2026"
     },
     {
      "price": 659990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
+     "fetched_at": "2026-11-11T05:57:40.657Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -86,14 +86,14 @@
      "kw": 393,
      "source_name": "Bilissimo",
      "source_url": "https://bilissimo.se/model/116-tesla-model-y",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
-     "source_updated": "9 november 2026"
+     "fetched_at": "2026-11-11T05:57:40.657Z",
+     "source_updated": "10 november 2026"
     },
     {
      "price": 729990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-10T06:05:19.097Z",
+     "fetched_at": "2026-11-11T05:57:40.657Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -114,7 +114,7 @@
    "note": "Leaves a balloon (restskuld) at the end. Performance from 1,99 %. Excl. insurance and service.",
    "source_name": "kostnader.se (cites Tesla)",
    "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-   "fetched_at": "2026-11-10T06:05:19.097Z"
+   "fetched_at": "2026-11-11T05:57:40.657Z"
   }
  ],
  "incentives": [
@@ -127,7 +127,7 @@
    "verify": "bonusen",
    "published": "2026-11-04",
    "verified": true,
-   "checked_at": "2026-11-10T06:05:19.097Z",
+   "checked_at": "2026-11-11T05:57:40.657Z",
    "http": 200
   },
   {
@@ -138,7 +138,7 @@
    "source_url": "https://elbilsvaruhuset.se/tesla-pris/",
    "verify": "450 000",
    "verified": true,
-   "checked_at": "2026-11-10T06:05:19.097Z",
+   "checked_at": "2026-11-11T05:57:40.657Z",
    "http": 200
   }
  ],
@@ -152,21 +152,21 @@
    "name": "Tesla Sverige (/sv_se/modely/design)",
    "url": "https://www.tesla.com/sv_se/modely/design",
    "status": "blocked (HTTP 403)",
-   "fetched_at": "2026-11-10T06:05:19.097Z"
+   "fetched_at": "2026-11-11T05:57:40.657Z"
   },
   {
    "name": "Tesla Sverige (/sv_se/modely)",
    "url": "https://www.tesla.com/sv_se/modely",
    "status": "blocked (HTTP 403)",
-   "fetched_at": "2026-11-10T06:05:19.097Z"
+   "fetched_at": "2026-11-11T05:57:40.657Z"
   },
   {
    "name": "Bilissimo",
    "url": "https://bilissimo.se/model/116-tesla-model-y",
    "status": "ok",
    "count": 4,
-   "source_updated": "9 november 2026",
-   "fetched_at": "2026-11-10T06:05:19.097Z"
+   "source_updated": "10 november 2026",
+   "fetched_at": "2026-11-11T05:57:40.657Z"
   },
   {
    "name": "kostnader.se",
@@ -174,7 +174,7 @@
    "status": "ok",
    "count": 4,
    "source_updated": "7 november 2026",
-   "fetched_at": "2026-11-10T06:05:19.097Z"
+   "fetched_at": "2026-11-11T05:57:40.657Z"
   }
  ]
 }
