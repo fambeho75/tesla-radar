@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T05:50:09.410Z",
+ "generated_at": "2026-11-14T05:55:32.664Z",
  "variants": [
   {
    "id": "RWD",
@@ -9,7 +9,7 @@
      "price": 499990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-13T05:50:09.410Z",
+     "fetched_at": "2026-11-14T05:55:32.664Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -25,7 +25,7 @@
      "price": 622990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-13T05:50:09.410Z",
+     "fetched_at": "2026-11-14T05:55:32.664Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -41,7 +41,7 @@
      "price": 659990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-13T05:50:09.410Z",
+     "fetched_at": "2026-11-14T05:55:32.664Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -57,7 +57,7 @@
      "price": 729990,
      "source_name": "kostnader.se (cites Tesla, 7 november 2026)",
      "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-     "fetched_at": "2026-11-13T05:50:09.410Z",
+     "fetched_at": "2026-11-14T05:55:32.664Z",
      "source_updated": "7 november 2026"
     }
    ],
@@ -78,7 +78,7 @@
    "note": "Leaves a balloon (restskuld) at the end. Performance from 1,99 %. Excl. insurance and service.",
    "source_name": "kostnader.se (cites Tesla)",
    "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-   "fetched_at": "2026-11-13T05:50:09.410Z"
+   "fetched_at": "2026-11-14T05:55:32.664Z"
   }
  ],
  "incentives": [
@@ -91,7 +91,7 @@
    "verify": "bonusen",
    "published": "2026-11-04",
    "verified": true,
-   "checked_at": "2026-11-13T05:50:09.410Z",
+   "checked_at": "2026-11-14T05:55:32.664Z",
    "http": 200
   },
   {
@@ -102,7 +102,7 @@
    "source_url": "https://elbilsvaruhuset.se/tesla-pris/",
    "verify": "450 000",
    "verified": true,
-   "checked_at": "2026-11-13T05:50:09.410Z",
+   "checked_at": "2026-11-14T05:55:32.664Z",
    "http": 200
   }
  ],
@@ -116,20 +116,20 @@
    "name": "Tesla Sverige (/sv_se/modely/design)",
    "url": "https://www.tesla.com/sv_se/modely/design",
    "status": "blocked (HTTP 403)",
-   "fetched_at": "2026-11-13T05:50:09.410Z"
+   "fetched_at": "2026-11-14T05:55:32.664Z"
   },
   {
    "name": "Tesla Sverige (/sv_se/modely)",
    "url": "https://www.tesla.com/sv_se/modely",
    "status": "blocked (HTTP 403)",
-   "fetched_at": "2026-11-13T05:50:09.410Z"
+   "fetched_at": "2026-11-14T05:55:32.664Z"
   },
   {
    "name": "Bilissimo",
    "url": "https://bilissimo.se/model/116-tesla-model-y",
    "status": "failed",
    "error": "no version prices found",
-   "fetched_at": "2026-11-13T05:50:09.410Z"
+   "fetched_at": "2026-11-14T05:55:32.664Z"
   },
   {
    "name": "kostnader.se",
@@ -137,7 +137,7 @@
    "status": "ok",
    "count": 4,
    "source_updated": "7 november 2026",
-   "fetched_at": "2026-11-13T05:50:09.410Z"
+   "fetched_at": "2026-11-14T05:55:32.664Z"
   }
  ]
 }
