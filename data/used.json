@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T05:55:32.664Z",
+ "generated_at": "2026-11-15T05:55:34.940Z",
  "regions": [
   "Skåne",
   "Halland",
@@ -13,17 +13,17 @@
  "scope": "Tesla Model Y for sale (sales_form = used), southern Sweden, all prices",
  "model": {
   "beta": [
-   516701,
-   -18148,
-   -11952,
-   51734,
-   51609,
-   79440,
-   134384
+   517039,
+   -18185,
+   -11949,
+   51525,
+   51397,
+   79230,
+   134350
   ],
-  "n": 193,
+  "n": 192,
   "r2": 0.814,
-  "sd": 32116,
+  "sd": 32200,
   "features": [
    "intercept",
    "age (yr)",
@@ -41,20 +41,20 @@
    "url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555",
    "kind": "used listings",
    "status": "ok",
-   "count": 185,
+   "count": 183,
    "my2025_checked": 14,
-   "fetched_at": "2026-11-14T05:55:32.664Z"
+   "fetched_at": "2026-11-15T05:55:34.940Z"
   },
   {
    "name": "Wayke",
    "url": "https://www.wayke.se/sok/tesla/model-y",
    "kind": "used listings (dealers)",
    "status": "ok",
-   "count": 10,
-   "duplicates_of_blocket": 96,
-   "outside_regions": 440,
-   "total_sweden": 537,
-   "fetched_at": "2026-11-14T05:55:32.664Z"
+   "count": 11,
+   "duplicates_of_blocket": 95,
+   "outside_regions": 434,
+   "total_sweden": 534,
+   "fetched_at": "2026-11-15T05:55:34.940Z"
   },
   {
    "name": "Tesla used inventory",
@@ -62,7 +62,7 @@
    "kind": "used listings",
    "status": "blocked (HTTP 403)",
    "note": "Akamai bot wall",
-   "fetched_at": "2026-11-14T05:55:32.664Z"
+   "fetched_at": "2026-11-15T05:55:34.940Z"
   },
   {
    "name": "Bytbil",
@@ -70,7 +70,7 @@
    "kind": "used listings",
    "status": "reachable, not used",
    "note": "same dealer stock as Blocket (same owner), HTML only — not scraped",
-   "fetched_at": "2026-11-14T05:55:32.664Z"
+   "fetched_at": "2026-11-15T05:55:34.940Z"
   },
   {
    "name": "Kvdbil",
@@ -78,7 +78,7 @@
    "kind": "used listings",
    "status": "reachable, not used",
    "note": "auctions (current bid, not an asking price) — not used",
-   "fetched_at": "2026-11-14T05:55:32.664Z"
+   "fetched_at": "2026-11-15T05:55:34.940Z"
   },
   {
    "name": "Carla",
@@ -86,7 +86,7 @@
    "kind": "used listings",
    "status": "blocked (HTTP 429)",
    "note": "Vercel bot checkpoint; Carla's cars are listed on Blocket anyway",
-   "fetched_at": "2026-11-14T05:55:32.664Z"
+   "fetched_at": "2026-11-15T05:55:34.940Z"
   }
  ],
  "excluded": [
@@ -445,31 +445,25 @@
    ]
   },
   {
-   "id": "blocket-28193576",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28193576",
-   "title": "Tesla Model Y Long Range AWD Drag/Pano/Autopilot",
-   "spec": "Long Range AWD Drag/Pano/Autopilot",
+   "id": "wayke-01a1cffd-9f16-7976-8151-fdef1acf594e",
+   "source": "Wayke",
+   "url": "https://www.wayke.se/objekt/01a1cffd-9f16-7976-8151-fdef1acf594e",
+   "title": "Tesla Model Y Long Range AWD",
+   "spec": "Long Range AWD",
    "price": 324000,
-   "price_ex_vat": 259200,
+   "price_ex_vat": null,
    "year": 2023,
    "km": 128150,
    "location": "Västra Frölunda",
    "region": "Västra Götaland",
-   "seller": "Västsvenska Bil AB",
+   "seller": "Västsvenska Bil",
    "seller_type": "dealer",
    "variant": "LR_AWD",
    "gen": "legacy",
    "gen_sure": true,
-   "range_km": 542,
-   "published": "2026-11-12",
-   "vin_year": "P",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/01a1cffd-9f16-7976-8151-fdef1acf594e"
-    }
-   ]
+   "range_km": null,
+   "published": null,
+   "vin_year": null
   },
   {
    "id": "blocket-28132815",
@@ -1277,6 +1271,27 @@
    ]
   },
   {
+   "id": "blocket-26667640",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/26667640",
+   "title": "Tesla Model Y Turbin fälgar / Drag/1 äg/ Vhjul ingår/",
+   "spec": "Turbin fälgar / Drag/1 äg/ Vhjul ingår/",
+   "price": 349900,
+   "price_ex_vat": 279920,
+   "year": 2024,
+   "km": 85850,
+   "location": "Alvesta",
+   "region": "Kronoberg",
+   "seller": "Bilhandelsverige",
+   "seller_type": "dealer",
+   "variant": "UNKNOWN",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 455,
+   "published": "2026-11-14",
+   "vin_year": "r"
+  },
+  {
    "id": "blocket-28171856",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28171856",
@@ -1712,27 +1727,6 @@
    "vin_year": "p"
   },
   {
-   "id": "blocket-27843740",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27843740",
-   "title": "Tesla Model Y STANDARD RANGE / DRAGKROK / INDUCTION 20\" / PANORAMA",
-   "spec": "STANDARD RANGE / DRAGKROK / INDUCTION 20\" / PANORAMA",
-   "price": 369700,
-   "price_ex_vat": 295760,
-   "year": 2024,
-   "km": 72040,
-   "location": "Ängelholm",
-   "region": "Skåne",
-   "seller": "Autovibe",
-   "seller_type": "dealer",
-   "variant": "RWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 430,
-   "published": "2026-10-30",
-   "vin_year": "R"
-  },
-  {
    "id": "blocket-26825846",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/26825846",
@@ -1785,27 +1779,6 @@
      "url": "https://www.wayke.se/objekt/01a1a124-23c2-7e62-905c-a8e895fdaea9"
     }
    ]
-  },
-  {
-   "id": "blocket-26667640",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/26667640",
-   "title": "Tesla Model Y Turbin fälgar / Drag/1 äg/ Vhjul ingår/",
-   "spec": "Turbin fälgar / Drag/1 äg/ Vhjul ingår/",
-   "price": 369900,
-   "price_ex_vat": 295920,
-   "year": 2024,
-   "km": 85850,
-   "location": "Alvesta",
-   "region": "Kronoberg",
-   "seller": "Bilhandelsverige",
-   "seller_type": "dealer",
-   "variant": "UNKNOWN",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 455,
-   "published": "2026-11-03",
-   "vin_year": "r"
   },
   {
    "id": "blocket-27218527",
@@ -4067,7 +4040,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-06",
+   "published": "2026-11-14",
    "vin_year": "P",
    "also": [
     {
@@ -4094,7 +4067,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-06",
+   "published": "2026-11-14",
    "vin_year": "S",
    "registered": "2024-12-27",
    "gen_basis": "first registered 2024-12-27 (before Juniper deliveries)",
