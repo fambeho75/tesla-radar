@@ -1,13 +1,13 @@
 /* Tesla Radar — offline cache.
    App shell: cache-first with background refresh (bump CACHE + ?v= when HTML/CSS/JS change).
    data/*.json: network-first, falls back to the last cached snapshot. */
-const CACHE = "myradar-v3";
+const CACHE = "myradar-v4";
 const DATA_CACHE = "myradar-data-v1";
 const ASSETS = [
   "./", "./index.html", "./styles.css?v=1", "./radar.js?v=1", "./app.js?v=1",
-  "./manifest.webmanifest?v=1", "./icon.svg?v=1", "./icon-rounded.svg?v=1", "./favicon-32.png?v=1",
-  "./apple-touch-icon.png?v=1", "./icon-192.png?v=1", "./icon-512.png?v=1",
-  "./icon-maskable-192.png?v=1", "./icon-maskable-512.png?v=1",
+  "./manifest.webmanifest?v=2", "./icon.svg?v=2", "./icon-rounded.svg?v=2", "./favicon-32.png?v=2",
+  "./apple-touch-icon.png?v=2", "./icon-192.png?v=2", "./icon-512.png?v=2",
+  "./icon-maskable-192.png?v=2", "./icon-maskable-512.png?v=2",
 ];
 
 self.addEventListener("install", (event) => {
