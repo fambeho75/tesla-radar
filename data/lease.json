@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T06:00:19.395Z",
+ "generated_at": "2026-11-25T06:01:12.664Z",
  "offers": [
   {
    "id": "tesla-RWD",
@@ -19,13 +19,13 @@
    "url": "https://www.tesla.com/sv_se/modely/design",
    "source_name": "kostnader.se (cites Tesla)",
    "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "confirmed_by": [
     {
      "source_name": "leasabil.com",
      "source_url": "https://leasabil.com/bilmarken/Tesla/Tesla-Model-Y",
      "monthly": 4595,
-     "fetched_at": "2026-11-23T06:00:19.395Z"
+     "fetched_at": "2026-11-25T06:01:12.664Z"
     }
    ],
    "setup_fee": 695,
@@ -51,13 +51,13 @@
    "url": "https://www.tesla.com/sv_se/modely/design",
    "source_name": "kostnader.se (cites Tesla)",
    "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "confirmed_by": [
     {
      "source_name": "leasabil.com",
      "source_url": "https://leasabil.com/bilmarken/Tesla/Tesla-Model-Y",
      "monthly": 5495,
-     "fetched_at": "2026-11-23T06:00:19.395Z"
+     "fetched_at": "2026-11-25T06:01:12.664Z"
     }
    ],
    "setup_fee": 695,
@@ -83,13 +83,13 @@
    "url": "https://www.tesla.com/sv_se/modely/design",
    "source_name": "kostnader.se (cites Tesla)",
    "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "confirmed_by": [
     {
      "source_name": "leasabil.com",
      "source_url": "https://leasabil.com/bilmarken/Tesla/Tesla-Model-Y",
      "monthly": 5995,
-     "fetched_at": "2026-11-23T06:00:19.395Z"
+     "fetched_at": "2026-11-25T06:01:12.664Z"
     }
    ],
    "setup_fee": 695,
@@ -115,7 +115,7 @@
    "url": "https://www.tesla.com/sv_se/modely/design",
    "source_name": "kostnader.se (cites Tesla)",
    "source_url": "https://kostnader.se/bil/tesla-model-y-kostnad",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 412356
   },
   {
@@ -139,7 +139,7 @@
    "url": "https://gomore.se/leasing/25907-tesla-model-y-rwd",
    "source_name": "GoMore",
    "source_url": "https://gomore.se/leasing/tesla",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 258840
   },
   {
@@ -163,7 +163,7 @@
    "url": "https://gomore.se/leasing/50361-tesla-model-y-long-range-dual-motor-awd",
    "source_name": "GoMore",
    "source_url": "https://gomore.se/leasing/tesla",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 182160
   },
   {
@@ -187,7 +187,7 @@
    "url": "https://gomore.se/leasing/44057-tesla-model-y-long-range-rwd",
    "source_name": "GoMore",
    "source_url": "https://gomore.se/leasing/tesla",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 300420
   },
   {
@@ -211,7 +211,7 @@
    "url": "https://gomore.se/leasing/19373-tesla-model-y-long-range-awd",
    "source_name": "GoMore",
    "source_url": "https://gomore.se/leasing/tesla",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 315720
   },
   {
@@ -233,7 +233,7 @@
    "url": "https://www.blocket.se/mobility/item/27843537",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "id": "blocket-27543541",
@@ -254,7 +254,7 @@
    "url": "https://www.blocket.se/mobility/item/27543541",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 134280
   },
   {
@@ -276,8 +276,29 @@
    "url": "https://www.blocket.se/mobility/item/27907140",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 141480
+  },
+  {
+   "id": "blocket-28482730",
+   "provider": "DAAL Bil AB",
+   "variant": "PERF",
+   "name": "Tesla Model Y PERFORMANCE AWD 534HK PRIVAT/FÖRETAGSLEASING",
+   "condition": "used",
+   "year": 2024,
+   "km": 50170,
+   "location": "Kungsängen",
+   "monthly": 5995,
+   "monthly_ex_vat": 4796,
+   "term_months": null,
+   "km_per_year": null,
+   "down_payment": null,
+   "terms_note": "Price shown incl. moms; the ad's headline figure is excl. moms — may be aimed at companies. Check terms in the ad.",
+   "includes": [],
+   "url": "https://www.blocket.se/mobility/item/28482730",
+   "source_name": "Blocket",
+   "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "id": "blocket-28401545",
@@ -298,29 +319,7 @@
    "url": "https://www.blocket.se/mobility/item/28401545",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
-   "total_over_term": 143880
-  },
-  {
-   "id": "blocket-28350126",
-   "provider": "Ayvens Väsby Release",
-   "variant": "LR_AWD",
-   "name": "Tesla Model Y Long Range 514hk AWD Drag",
-   "condition": "used",
-   "year": 2023,
-   "km": 93390,
-   "location": "Upplands Väsby",
-   "monthly": 5995,
-   "monthly_ex_vat": null,
-   "term_months": 24,
-   "km_per_year": 10000,
-   "down_payment": 0,
-   "terms_note": "Ayvens Release Basic: 24 months, 1 000 mil/yr, 0 kr down, cancel after 12 months (from the ad text)",
-   "includes": [],
-   "url": "https://www.blocket.se/mobility/item/28350126",
-   "source_name": "Blocket",
-   "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 143880
   },
   {
@@ -342,7 +341,7 @@
    "url": "https://www.blocket.se/mobility/item/28398174",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 146280
   },
   {
@@ -364,7 +363,7 @@
    "url": "https://www.blocket.se/mobility/item/28323811",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 146280
   },
   {
@@ -386,7 +385,7 @@
    "url": "https://www.blocket.se/mobility/item/28401639",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 148680
   },
   {
@@ -408,7 +407,7 @@
    "url": "https://www.blocket.se/mobility/item/28401663",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 151080
   },
   {
@@ -430,7 +429,7 @@
    "url": "https://www.blocket.se/mobility/item/28375133",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 153480
   },
   {
@@ -452,7 +451,7 @@
    "url": "https://www.blocket.se/mobility/item/28398126",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 155880
   },
   {
@@ -474,7 +473,7 @@
    "url": "https://www.blocket.se/mobility/item/28024858",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 155880
   },
   {
@@ -496,7 +495,7 @@
    "url": "https://www.blocket.se/mobility/item/27728010",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 158280
   },
   {
@@ -518,7 +517,7 @@
    "url": "https://www.blocket.se/mobility/item/27543758",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 158280
   },
   {
@@ -540,7 +539,7 @@
    "url": "https://www.blocket.se/mobility/item/27261770",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 158280
   },
   {
@@ -562,30 +561,8 @@
    "url": "https://www.blocket.se/mobility/item/28375073",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 165480
-  },
-  {
-   "id": "blocket-28209432",
-   "provider": "Ayvens Väsby Release",
-   "variant": "LR_AWD",
-   "name": "Tesla Model Y Long Range AWD 514hk",
-   "condition": "used",
-   "year": 2024,
-   "km": 48370,
-   "location": "Upplands Väsby",
-   "monthly": 7095,
-   "monthly_ex_vat": null,
-   "term_months": 24,
-   "km_per_year": 10000,
-   "down_payment": 0,
-   "terms_note": "Ayvens Release Basic: 24 months, 1 000 mil/yr, 0 kr down, cancel after 12 months (from the ad text)",
-   "includes": [],
-   "url": "https://www.blocket.se/mobility/item/28209432",
-   "source_name": "Blocket",
-   "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
-   "total_over_term": 170280
   },
   {
    "id": "blocket-27727925",
@@ -606,7 +583,7 @@
    "url": "https://www.blocket.se/mobility/item/27727925",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 170280
   },
   {
@@ -628,7 +605,7 @@
    "url": "https://www.blocket.se/mobility/item/27569187",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 182280
   },
   {
@@ -650,7 +627,7 @@
    "url": "https://www.blocket.se/mobility/item/28398091",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 187080
   },
   {
@@ -672,7 +649,7 @@
    "url": "https://www.blocket.se/mobility/item/26270954",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "id": "blocket-20298046",
@@ -693,7 +670,7 @@
    "url": "https://www.blocket.se/mobility/item/20298046",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "id": "blocket-26639729",
@@ -714,7 +691,7 @@
    "url": "https://www.blocket.se/mobility/item/26639729",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z",
+   "fetched_at": "2026-11-25T06:01:12.664Z",
    "total_over_term": 178035
   },
   {
@@ -736,7 +713,7 @@
    "url": "https://www.blocket.se/mobility/item/20184580",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "id": "blocket-20302793",
@@ -757,13 +734,34 @@
    "url": "https://www.blocket.se/mobility/item/20302793",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
+  },
+  {
+   "id": "blocket-28516162",
+   "provider": "MFleet AB - Fleet Mobility",
+   "variant": "PERF",
+   "name": "Tesla Model Y Performance Omgående lev fr. 10 995kr/mån 0kr insats",
+   "condition": "used",
+   "year": 2026,
+   "km": 15000,
+   "location": "Göteborg",
+   "monthly": 13744,
+   "monthly_ex_vat": 10995,
+   "term_months": null,
+   "km_per_year": null,
+   "down_payment": 0,
+   "terms_note": "Price shown incl. moms; the ad's headline figure is excl. moms — may be aimed at companies. Check terms in the ad.",
+   "includes": [],
+   "url": "https://www.blocket.se/mobility/item/28516162",
+   "source_name": "Blocket",
+   "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "id": "blocket-20297735",
    "provider": "MFleet AB - Fleet Mobility",
    "variant": "PERF",
-   "name": "Tesla Model Y Performance Omgående lev fr. 10 995kr/mån 0kr insats",
+   "name": "Tesla Model Y Performance fr. 10 995kr/mån 0kr insats",
    "condition": "new",
    "year": 2026,
    "km": null,
@@ -778,7 +776,7 @@
    "url": "https://www.blocket.se/mobility/item/20297735",
    "source_name": "Blocket",
    "source_url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555&sales_form=5&sort=PRICE_ASC",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   }
  ],
  "sources": [
@@ -787,7 +785,7 @@
    "url": "https://kostnader.se/bil/tesla-model-y-kostnad",
    "status": "ok",
    "count": 4,
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "name": "Leasa Bil (leasabil.com) — Tesla privatleasing",
@@ -796,14 +794,14 @@
    "count": 3,
    "setup_fee": 695,
    "invoice_fee": 60,
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "name": "GoMore Leasing",
    "url": "https://gomore.se/leasing/tesla",
    "status": "ok",
    "count": 4,
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "name": "Blocket leasing ads",
@@ -817,19 +815,19 @@
    ],
    "status": "ok",
    "count": 26,
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "name": "Tesla privatleasing (direct)",
    "url": "https://www.tesla.com/sv_se/modely/design#overview",
    "status": "blocked (HTTP 403)",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   },
   {
    "name": "Alleasing",
    "url": "https://www.alleasing.se/tesla/model-y",
    "status": "blocked (HTTP 429)",
-   "fetched_at": "2026-11-23T06:00:19.395Z"
+   "fetched_at": "2026-11-25T06:01:12.664Z"
   }
  ]
 }
