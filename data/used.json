@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T06:01:12.664Z",
+ "generated_at": "2026-11-27T05:57:09.923Z",
  "regions": [
   "Skåne",
   "Halland",
@@ -13,17 +13,17 @@
  "scope": "Tesla Model Y for sale (sales_form = used), southern Sweden, all prices",
  "model": {
   "beta": [
-   509069,
-   -15692,
-   -11926,
-   52883,
-   48522,
-   79599,
-   143294
+   504569,
+   -15929,
+   -11508,
+   54682,
+   50784,
+   79995,
+   143205
   ],
-  "n": 184,
+  "n": 192,
   "r2": 0.845,
-  "sd": 31970,
+  "sd": 31684,
   "features": [
    "intercept",
    "age (yr)",
@@ -41,20 +41,20 @@
    "url": "https://www.blocket.se/mobility/search/car?variant=1.8078.2000555",
    "kind": "used listings",
    "status": "ok",
-   "count": 184,
-   "my2025_checked": 17,
-   "fetched_at": "2026-11-25T06:01:12.664Z"
+   "count": 189,
+   "my2025_checked": 19,
+   "fetched_at": "2026-11-27T05:57:09.923Z"
   },
   {
    "name": "Wayke",
    "url": "https://www.wayke.se/sok/tesla/model-y",
    "kind": "used listings (dealers)",
    "status": "ok",
-   "count": 3,
-   "duplicates_of_blocket": 96,
-   "outside_regions": 473,
-   "total_sweden": 550,
-   "fetched_at": "2026-11-25T06:01:12.664Z"
+   "count": 6,
+   "duplicates_of_blocket": 97,
+   "outside_regions": 467,
+   "total_sweden": 561,
+   "fetched_at": "2026-11-27T05:57:09.923Z"
   },
   {
    "name": "Tesla used inventory",
@@ -62,7 +62,7 @@
    "kind": "used listings",
    "status": "blocked (HTTP 403)",
    "note": "Akamai bot wall",
-   "fetched_at": "2026-11-25T06:01:12.664Z"
+   "fetched_at": "2026-11-27T05:57:09.923Z"
   },
   {
    "name": "Bytbil",
@@ -70,7 +70,7 @@
    "kind": "used listings",
    "status": "reachable, not used",
    "note": "same dealer stock as Blocket (same owner), HTML only — not scraped",
-   "fetched_at": "2026-11-25T06:01:12.664Z"
+   "fetched_at": "2026-11-27T05:57:09.923Z"
   },
   {
    "name": "Kvdbil",
@@ -78,7 +78,7 @@
    "kind": "used listings",
    "status": "reachable, not used",
    "note": "auctions (current bid, not an asking price) — not used",
-   "fetched_at": "2026-11-25T06:01:12.664Z"
+   "fetched_at": "2026-11-27T05:57:09.923Z"
   },
   {
    "name": "Carla",
@@ -86,7 +86,7 @@
    "kind": "used listings",
    "status": "blocked (HTTP 429)",
    "note": "Vercel bot checkpoint; Carla's cars are listed on Blocket anyway",
-   "fetched_at": "2026-11-25T06:01:12.664Z"
+   "fetched_at": "2026-11-27T05:57:09.923Z"
   }
  ],
  "excluded": [
@@ -127,6 +127,69 @@
    "range_km": 455,
    "published": "2026-11-23",
    "vin_year": "R"
+  },
+  {
+   "id": "wayke-4d6cf6f8-c350-404a-9fbe-c8345b6b8766",
+   "source": "Wayke",
+   "url": "https://www.wayke.se/objekt/4d6cf6f8-c350-404a-9fbe-c8345b6b8766",
+   "title": "Tesla Model Y Long Range AWD",
+   "spec": "Long Range AWD",
+   "price": 228000,
+   "price_ex_vat": null,
+   "year": 2022,
+   "km": 237300,
+   "location": "Kungälv",
+   "region": "Västra Götaland",
+   "seller": "Kvdbil Kungälv",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": null,
+   "published": null,
+   "vin_year": null
+  },
+  {
+   "id": "wayke-2f658828-f38d-4dcc-85d5-bdedfd984cae",
+   "source": "Wayke",
+   "url": "https://www.wayke.se/objekt/2f658828-f38d-4dcc-85d5-bdedfd984cae",
+   "title": "Tesla Model Y Long Range AWD",
+   "spec": "Long Range AWD",
+   "price": 249000,
+   "price_ex_vat": null,
+   "year": 2021,
+   "km": 217920,
+   "location": "Svedala",
+   "region": "Skåne",
+   "seller": "Kvdbil Svedala",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": null,
+   "published": null,
+   "vin_year": null
+  },
+  {
+   "id": "blocket-28517983",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28517983",
+   "title": "Tesla Model Y Long Range AWD Drag Värmepump Panorama",
+   "spec": "Long Range AWD Drag Värmepump Panorama",
+   "price": 279900,
+   "price_ex_vat": null,
+   "year": 2021,
+   "km": 181600,
+   "location": "Limhamn",
+   "region": "Skåne",
+   "seller": "Limhamns Bilhandel",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 533,
+   "published": "2026-11-24",
+   "vin_year": "m"
   },
   {
    "id": "blocket-28516338",
@@ -202,27 +265,6 @@
      "url": "https://www.wayke.se/objekt/fc67e7c5-9c31-4c42-a9fd-bc0daa634824"
     }
    ]
-  },
-  {
-   "id": "blocket-28517983",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28517983",
-   "title": "Tesla Model Y Long Range AWD",
-   "spec": "Long Range AWD",
-   "price": 299900,
-   "price_ex_vat": null,
-   "year": 2021,
-   "km": 181600,
-   "location": "Limhamn",
-   "region": "Skåne",
-   "seller": "Limhamns Bilhandel",
-   "seller_type": "dealer",
-   "variant": "LR_AWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 533,
-   "published": "2026-11-24",
-   "vin_year": "m"
   },
   {
    "id": "blocket-27231208",
@@ -311,39 +353,12 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 507,
-   "published": "2026-11-21",
+   "published": "2026-11-25",
    "vin_year": "M",
    "also": [
     {
      "source": "Wayke",
      "url": "https://www.wayke.se/objekt/3c0beb49-f15f-4f13-a1e9-66fa870a7789"
-    }
-   ]
-  },
-  {
-   "id": "blocket-27830168",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27830168",
-   "title": "Tesla Model Y Long Range AWD Drag Uppgraderad-Autopilot",
-   "spec": "Long Range AWD Drag Uppgraderad-Autopilot",
-   "price": 309600,
-   "price_ex_vat": null,
-   "year": 2021,
-   "km": 140950,
-   "location": "Linköping",
-   "region": "Östergötland",
-   "seller": "Riddermark Bil - Linköping",
-   "seller_type": "dealer",
-   "variant": "LR_AWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 507,
-   "published": "2026-11-21",
-   "vin_year": "M",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/92e2ef36-b1d4-4375-8b79-2f08b0407059"
     }
    ]
   },
@@ -375,27 +390,6 @@
    ]
   },
   {
-   "id": "blocket-27813748",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27813748",
-   "title": "Tesla Model Y Standard Range 299hk !24mån garanti! 2,99%! Pano Läder",
-   "spec": "Standard Range 299hk !24mån garanti! 2,99%! Pano Läder",
-   "price": 309900,
-   "price_ex_vat": 247920,
-   "year": 2023,
-   "km": 125190,
-   "location": "Göteborg",
-   "region": "Västra Götaland",
-   "seller": "Moberg Bil Hisingen",
-   "seller_type": "dealer",
-   "variant": "RWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 455,
-   "published": "2026-11-23",
-   "vin_year": "P"
-  },
-  {
    "id": "blocket-27996403",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/27996403",
@@ -415,27 +409,6 @@
    "range_km": 533,
    "published": "2026-11-05",
    "vin_year": "m"
-  },
-  {
-   "id": "blocket-27212881",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27212881",
-   "title": "Tesla Model Y Long Range AWD",
-   "spec": "Long Range AWD",
-   "price": 319000,
-   "price_ex_vat": null,
-   "year": 2023,
-   "km": 147000,
-   "location": "Malmö",
-   "region": "Skåne",
-   "seller": "Private seller",
-   "seller_type": "private",
-   "variant": "LR_AWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 533,
-   "published": "2026-10-08",
-   "vin_year": "P"
   },
   {
    "id": "blocket-28152352",
@@ -486,6 +459,27 @@
    "vin_year": "P"
   },
   {
+   "id": "blocket-22205468",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/22205468",
+   "title": "Tesla Model Y Long Range AWD",
+   "spec": "Long Range AWD",
+   "price": 319900,
+   "price_ex_vat": 255920,
+   "year": 2021,
+   "km": 116500,
+   "location": "Karlskrona",
+   "region": "Blekinge",
+   "seller": "BilTeam",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 507,
+   "published": "2026-09-12",
+   "vin_year": "m"
+  },
+  {
    "id": "blocket-27237241",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/27237241",
@@ -511,27 +505,6 @@
      "url": "https://www.wayke.se/objekt/b8bd0c45-7fea-4741-8258-fefeffaba06c"
     }
    ]
-  },
-  {
-   "id": "blocket-28516267",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28516267",
-   "title": "Tesla Model Y Long Range AWD",
-   "spec": "Long Range AWD",
-   "price": 320000,
-   "price_ex_vat": null,
-   "year": 2023,
-   "km": 121000,
-   "location": "Halmstad",
-   "region": "Halland",
-   "seller": "Private seller",
-   "seller_type": "private",
-   "variant": "LR_AWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 533,
-   "published": "2026-11-24",
-   "vin_year": "P"
   },
   {
    "id": "blocket-28132815",
@@ -603,27 +576,6 @@
    ]
   },
   {
-   "id": "blocket-22205468",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/22205468",
-   "title": "Tesla Model Y Long Range AWD",
-   "spec": "Long Range AWD",
-   "price": 325900,
-   "price_ex_vat": 260720,
-   "year": 2021,
-   "km": 116500,
-   "location": "Karlskrona",
-   "region": "Blekinge",
-   "seller": "BilTeam",
-   "seller_type": "dealer",
-   "variant": "LR_AWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 507,
-   "published": "2026-09-12",
-   "vin_year": "m"
-  },
-  {
    "id": "blocket-26853821",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/26853821",
@@ -689,7 +641,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 507,
-   "published": "2026-11-21",
+   "published": "2026-11-25",
    "vin_year": "M",
    "also": [
     {
@@ -716,7 +668,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-18",
+   "published": "2026-11-26",
    "vin_year": "P",
    "also": [
     {
@@ -839,7 +791,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-21",
+   "published": "2026-11-25",
    "vin_year": "P",
    "also": [
     {
@@ -920,7 +872,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-21",
+   "published": "2026-11-25",
    "vin_year": "N",
    "also": [
     {
@@ -930,38 +882,32 @@
    ]
   },
   {
-   "id": "blocket-27723292",
+   "id": "blocket-23809597",
    "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27723292",
-   "title": "Tesla Model Y Performance AWD 534hk Pano Kamera Skinn MOMS",
-   "spec": "Performance AWD 534hk Pano Kamera Skinn MOMS",
-   "price": 339800,
-   "price_ex_vat": 271840,
+   "url": "https://www.blocket.se/mobility/item/23809597",
+   "title": "Tesla Model Y Standard Range RWD",
+   "spec": "Standard Range RWD",
+   "price": 339000,
+   "price_ex_vat": null,
    "year": 2023,
-   "km": 151100,
-   "location": "Varberg",
-   "region": "Halland",
-   "seller": "Kamux Varberg",
-   "seller_type": "dealer",
-   "variant": "PERF",
+   "km": 72000,
+   "location": "Staffanstorp",
+   "region": "Skåne",
+   "seller": "Private seller",
+   "seller_type": "private",
+   "variant": "RWD",
    "gen": "legacy",
    "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-11-12",
-   "vin_year": "P",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/828e6ec1-7ca0-4fc8-a05e-ee1ab618cf2e"
-    }
-   ]
+   "range_km": 455,
+   "published": "2026-11-25",
+   "vin_year": "P"
   },
   {
    "id": "blocket-28523177",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28523177",
-   "title": "Tesla Model Y Long Range AWD 514hk !24mån garanti! Läder Pano B-Kamer",
-   "spec": "Long Range AWD 514hk !24mån garanti! Läder Pano B-Kamer",
+   "title": "Tesla Model Y Long Range AWD 514hk !24mån garanti! Pano B-Kamera",
+   "spec": "Long Range AWD 514hk !24mån garanti! Pano B-Kamera",
    "price": 339900,
    "price_ex_vat": 271920,
    "year": 2021,
@@ -1043,7 +989,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-21",
+   "published": "2026-11-26",
    "vin_year": "P",
    "also": [
     {
@@ -1099,27 +1045,6 @@
      "url": "https://www.wayke.se/objekt/53c168bf-ab79-4f07-b49e-9711163a28ec"
     }
    ]
-  },
-  {
-   "id": "blocket-26667640",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/26667640",
-   "title": "Tesla Model Y Turbin fälgar / Drag/1 ägare/Moms/Vhjul ingår/",
-   "spec": "Turbin fälgar / Drag/1 ägare/Moms/Vhjul ingår/",
-   "price": 345000,
-   "price_ex_vat": 276000,
-   "year": 2024,
-   "km": 88200,
-   "location": "Alvesta",
-   "region": "Kronoberg",
-   "seller": "Bilhandelsverige",
-   "seller_type": "dealer",
-   "variant": "UNKNOWN",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 455,
-   "published": "2026-11-23",
-   "vin_year": "r"
   },
   {
    "id": "blocket-28513422",
@@ -1283,7 +1208,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-19",
+   "published": "2026-11-25",
    "vin_year": "P",
    "also": [
     {
@@ -1345,27 +1270,6 @@
      "url": "https://www.wayke.se/objekt/22b82c27-77cc-441a-b956-4435bd67c69b"
     }
    ]
-  },
-  {
-   "id": "blocket-28171856",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28171856",
-   "title": "Tesla Model Y Long Range AWD 514hk !24mån garanti! Drag B-Kamera Pano",
-   "spec": "Long Range AWD 514hk !24mån garanti! Drag B-Kamera Pano",
-   "price": 349900,
-   "price_ex_vat": 279920,
-   "year": 2023,
-   "km": 123290,
-   "location": "Göteborg",
-   "region": "Västra Götaland",
-   "seller": "Moberg Bil Hisingen",
-   "seller_type": "dealer",
-   "variant": "LR_AWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 533,
-   "published": "2026-11-19",
-   "vin_year": "P"
   },
   {
    "id": "blocket-28383784",
@@ -1500,6 +1404,48 @@
    "vin_year": "p"
   },
   {
+   "id": "blocket-26667640",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/26667640",
+   "title": "Tesla Model Y Turbin fälgar / Drag/1 ägare/Moms/Vhjul ingår/",
+   "spec": "Turbin fälgar / Drag/1 ägare/Moms/Vhjul ingår/",
+   "price": 355000,
+   "price_ex_vat": 284000,
+   "year": 2024,
+   "km": 88200,
+   "location": "Alvesta",
+   "region": "Kronoberg",
+   "seller": "Bilhandelsverige",
+   "seller_type": "dealer",
+   "variant": "UNKNOWN",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 455,
+   "published": "2026-11-23",
+   "vin_year": "r"
+  },
+  {
+   "id": "blocket-28542832",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28542832",
+   "title": "Tesla Model Y Standard Range/Drag,Vinterhjul,6900Mil",
+   "spec": "Standard Range/Drag,Vinterhjul,6900Mil",
+   "price": 358000,
+   "price_ex_vat": 286400,
+   "year": 2023,
+   "km": 69980,
+   "location": "Skillingaryd",
+   "region": "Jönköping",
+   "seller": "Götaström Bil AB",
+   "seller_type": "dealer",
+   "variant": "RWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 455,
+   "published": "2026-11-25",
+   "vin_year": "P"
+  },
+  {
    "id": "blocket-28168213",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28168213",
@@ -1565,7 +1511,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 455,
-   "published": "2026-11-19",
+   "published": "2026-11-26",
    "vin_year": "R",
    "also": [
     {
@@ -1670,8 +1616,8 @@
    "url": "https://www.blocket.se/mobility/item/26878509",
    "title": "Tesla Model Y Long Range AWD | Panorama | 360 | Kamera | Vinterdäck",
    "spec": "Long Range AWD | Panorama | 360 | Kamera | Vinterdäck",
-   "price": 368400,
-   "price_ex_vat": 294720,
+   "price": 364700,
+   "price_ex_vat": 291760,
    "year": 2022,
    "km": 92870,
    "location": "Lidköping",
@@ -1682,7 +1628,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 542,
-   "published": "2026-11-18",
+   "published": "2026-11-25",
    "vin_year": "n"
   },
   {
@@ -1751,7 +1697,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-20",
+   "published": "2026-11-25",
    "vin_year": "P",
    "also": [
     {
@@ -1778,7 +1724,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-19",
+   "published": "2026-11-25",
    "vin_year": "N",
    "also": [
     {
@@ -1826,7 +1772,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 455,
-   "published": "2026-11-22",
+   "published": "2026-11-26",
    "vin_year": "R",
    "also": [
     {
@@ -1861,6 +1807,27 @@
      "url": "https://www.wayke.se/objekt/76a8ecd5-8b3b-4a1e-baf9-8ab40ca25ba5"
     }
    ]
+  },
+  {
+   "id": "wayke-5261f144-62ee-425a-80e8-be17d255343b",
+   "source": "Wayke",
+   "url": "https://www.wayke.se/objekt/5261f144-62ee-425a-80e8-be17d255343b",
+   "title": "Tesla Model Y Long Range AWD",
+   "spec": "Long Range AWD",
+   "price": 369900,
+   "price_ex_vat": null,
+   "year": 2023,
+   "km": 86100,
+   "location": "Svedala",
+   "region": "Skåne",
+   "seller": "Kvdbil Svedala",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": null,
+   "published": null,
+   "vin_year": null
   },
   {
    "id": "wayke-01a1a124-23c2-7e62-905c-a8e895fdaea9",
@@ -2007,6 +1974,33 @@
    "vin_year": "P"
   },
   {
+   "id": "blocket-28541828",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28541828",
+   "title": "Tesla Model Y Long Range AWD Värmepump Pano Drag",
+   "spec": "Long Range AWD Värmepump Pano Drag",
+   "price": 379800,
+   "price_ex_vat": null,
+   "year": 2023,
+   "km": 90120,
+   "location": "Göteborg",
+   "region": "Västra Götaland",
+   "seller": "Riddermark Bil Göteborg",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 533,
+   "published": "2026-11-25",
+   "vin_year": "P",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/29aa7cfd-f371-414c-939c-2370a4574a71"
+    }
+   ]
+  },
+  {
    "id": "blocket-25931249",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/25931249",
@@ -2028,6 +2022,27 @@
    "vin_year": "n"
   },
   {
+   "id": "blocket-28568521",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28568521",
+   "title": "Tesla Model Y Long Range AWD HW4 Autopilot 514hk",
+   "spec": "Long Range AWD HW4 Autopilot 514hk",
+   "price": 379900,
+   "price_ex_vat": 303920,
+   "year": 2024,
+   "km": 106500,
+   "location": "Kinna",
+   "region": "Västra Götaland",
+   "seller": "7H Bil AB",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 533,
+   "published": "2026-11-26",
+   "vin_year": "R"
+  },
+  {
    "id": "blocket-27219387",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/27219387",
@@ -2045,7 +2060,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-17",
+   "published": "2026-11-25",
    "vin_year": "R",
    "also": [
     {
@@ -2103,25 +2118,31 @@
    ]
   },
   {
-   "id": "blocket-27906625",
+   "id": "blocket-28559474",
    "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27906625",
-   "title": "Tesla Model Y Long Range AWD Pano Moms 1 års garanti och vinterhjul",
-   "spec": "Long Range AWD Pano Moms 1 års garanti och vinterhjul",
+   "url": "https://www.blocket.se/mobility/item/28559474",
+   "title": "Tesla Model Y Performance AWD Värmepump Skinn Kamera AP MOMS",
+   "spec": "Performance AWD Värmepump Skinn Kamera AP MOMS",
    "price": 384900,
    "price_ex_vat": 307920,
    "year": 2023,
-   "km": 88000,
-   "location": "Halmstad",
-   "region": "Halland",
-   "seller": "Prime Auto Collection",
+   "km": 90970,
+   "location": "Göteborg",
+   "region": "Västra Götaland",
+   "seller": "Riddermark Bil Göteborg",
    "seller_type": "dealer",
-   "variant": "LR_AWD",
+   "variant": "PERF",
    "gen": "legacy",
    "gen_sure": true,
-   "range_km": 533,
-   "published": "2026-11-10",
-   "vin_year": "P"
+   "range_km": 514,
+   "published": "2026-11-26",
+   "vin_year": "P",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/d321a371-0dcc-4788-9fcc-b9a40c2d2f13"
+    }
+   ]
   },
   {
    "id": "blocket-27438325",
@@ -2193,6 +2214,27 @@
    "vin_year": "P"
   },
   {
+   "id": "blocket-28560443",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28560443",
+   "title": "Tesla Model Y Long Range AWD Pano Drag Skinn Autopilot 360° Keyless",
+   "spec": "Long Range AWD Pano Drag Skinn Autopilot 360° Keyless",
+   "price": 389000,
+   "price_ex_vat": 311200,
+   "year": 2023,
+   "km": 82450,
+   "location": "Habo",
+   "region": "Jönköping",
+   "seller": "Wetterstadens Bil AB",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 533,
+   "published": "2026-11-26",
+   "vin_year": "p"
+  },
+  {
    "id": "blocket-26878988",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/26878988",
@@ -2212,6 +2254,33 @@
    "range_km": 533,
    "published": "2026-10-29",
    "vin_year": "P"
+  },
+  {
+   "id": "blocket-27180878",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/27180878",
+   "title": "Tesla Model Y Performance 534hk Värmepump Autopilot Läder",
+   "spec": "Performance 534hk Värmepump Autopilot Läder",
+   "price": 389900,
+   "price_ex_vat": null,
+   "year": 2022,
+   "km": 69080,
+   "location": "Göteborg",
+   "region": "Västra Götaland",
+   "seller": "Riddermark Bil Göteborg",
+   "seller_type": "dealer",
+   "variant": "PERF",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 514,
+   "published": "2026-11-25",
+   "vin_year": "N",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/b7bb24bd-d95c-490e-9cba-4a342902592f"
+    }
+   ]
   },
   {
    "id": "blocket-28383775",
@@ -2237,33 +2306,6 @@
     {
      "source": "Wayke",
      "url": "https://www.wayke.se/objekt/c8dac09f-1c58-4acf-be3d-7a574c6956a5"
-    }
-   ]
-  },
-  {
-   "id": "blocket-27180878",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27180878",
-   "title": "Tesla Model Y Performance 534hk Värmepump Autopilot Läder",
-   "spec": "Performance 534hk Värmepump Autopilot Läder",
-   "price": 389900,
-   "price_ex_vat": null,
-   "year": 2022,
-   "km": 69080,
-   "location": "Göteborg",
-   "region": "Västra Götaland",
-   "seller": "Riddermark Bil Göteborg",
-   "seller_type": "dealer",
-   "variant": "PERF",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-11-19",
-   "vin_year": "N",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/b7bb24bd-d95c-490e-9cba-4a342902592f"
     }
    ]
   },
@@ -2352,25 +2394,31 @@
    "vin_year": "p"
   },
   {
-   "id": "wayke-e9132fcb-b0e4-4d48-a9d7-4591accd598e",
-   "source": "Wayke",
-   "url": "https://www.wayke.se/objekt/e9132fcb-b0e4-4d48-a9d7-4591accd598e",
-   "title": "Tesla Model Y Performance",
-   "spec": "Performance",
-   "price": 395000,
-   "price_ex_vat": null,
-   "year": 2023,
-   "km": 81240,
-   "location": "Kungälv",
+   "id": "blocket-28290137",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28290137",
+   "title": "Tesla Model Y Performance 534hk MOMS Värmare Autopilot Drag",
+   "spec": "Performance 534hk MOMS Värmare Autopilot Drag",
+   "price": 394800,
+   "price_ex_vat": 315840,
+   "year": 2024,
+   "km": 124330,
+   "location": "Göteborg",
    "region": "Västra Götaland",
-   "seller": "Kvdbil Kungälv",
+   "seller": "Riddermark Bil Göteborg",
    "seller_type": "dealer",
    "variant": "PERF",
    "gen": "legacy",
    "gen_sure": true,
-   "range_km": null,
-   "published": null,
-   "vin_year": null
+   "range_km": 514,
+   "published": "2026-11-26",
+   "vin_year": "R",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/4b1b88eb-5292-464d-b45b-5f2b67ca165e"
+    }
+   ]
   },
   {
    "id": "blocket-27767444",
@@ -2434,6 +2482,27 @@
    "range_km": 455,
    "published": "2026-11-10",
    "vin_year": "p"
+  },
+  {
+   "id": "blocket-28566586",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28566586",
+   "title": "Tesla Model Y Long Range AWD 514hk / Dragkrok / Leasbar",
+   "spec": "Long Range AWD 514hk / Dragkrok / Leasbar",
+   "price": 398800,
+   "price_ex_vat": 319040,
+   "year": 2023,
+   "km": 74620,
+   "location": "Ljungsbro",
+   "region": "Östergötland",
+   "seller": "Ljungsbro Bilcenter AB",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 533,
+   "published": "2026-11-26",
+   "vin_year": "P"
   },
   {
    "id": "blocket-27599419",
@@ -2501,39 +2570,12 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-10",
+   "published": "2026-11-25",
    "vin_year": "N",
    "also": [
     {
      "source": "Wayke",
      "url": "https://www.wayke.se/objekt/e6b4f67d-f6a5-4112-a5be-3ac49dd626f7"
-    }
-   ]
-  },
-  {
-   "id": "blocket-28290137",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28290137",
-   "title": "Tesla Model Y Performance 534hk MOMS Värmare Autopilot Drag",
-   "spec": "Performance 534hk MOMS Värmare Autopilot Drag",
-   "price": 399800,
-   "price_ex_vat": 319840,
-   "year": 2024,
-   "km": 124330,
-   "location": "Göteborg",
-   "region": "Västra Götaland",
-   "seller": "Riddermark Bil Göteborg",
-   "seller_type": "dealer",
-   "variant": "PERF",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-11-21",
-   "vin_year": "R",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/4b1b88eb-5292-464d-b45b-5f2b67ca165e"
     }
    ]
   },
@@ -2653,6 +2695,27 @@
    "range_km": 533,
    "published": "2026-11-09",
    "vin_year": "p"
+  },
+  {
+   "id": "wayke-87e501a4-690d-4c7e-b1a8-02b0a5e493fa",
+   "source": "Wayke",
+   "url": "https://www.wayke.se/objekt/87e501a4-690d-4c7e-b1a8-02b0a5e493fa",
+   "title": "Tesla Model Y Long Range AWD",
+   "spec": "Long Range AWD",
+   "price": 399900,
+   "price_ex_vat": null,
+   "year": 2024,
+   "km": 83150,
+   "location": "Kungälv",
+   "region": "Västra Götaland",
+   "seller": "Kvdbil Kungälv",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": null,
+   "published": null,
+   "vin_year": null
   },
   {
    "id": "blocket-27843655",
@@ -2796,8 +2859,8 @@
    "id": "blocket-28321607",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28321607",
-   "title": "Tesla Model Y Long Range AWD 514hk",
-   "spec": "Long Range AWD 514hk",
+   "title": "Tesla Model Y Long Range AWD 514hk Pano Skinn Kamera Drag",
+   "spec": "Long Range AWD 514hk Pano Skinn Kamera Drag",
    "price": 409800,
    "price_ex_vat": 327840,
    "year": 2024,
@@ -2841,6 +2904,33 @@
    "vin_year": "P"
   },
   {
+   "id": "blocket-27149267",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/27149267",
+   "title": "Tesla Model Y Standard Range 300hk Panorama Navi Backkamera MOMS",
+   "spec": "Standard Range 300hk Panorama Navi Backkamera MOMS",
+   "price": 409900,
+   "price_ex_vat": 327920,
+   "year": 2024,
+   "km": 18420,
+   "location": "Malmö",
+   "region": "Skåne",
+   "seller": "Bilia Outlet Jägersro",
+   "seller_type": "dealer",
+   "variant": "RWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 455,
+   "published": "2026-11-26",
+   "vin_year": "r",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/02796f59-e9a7-4583-9133-9f19d2272502"
+    }
+   ]
+  },
+  {
    "id": "blocket-28508823",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28508823",
@@ -2866,6 +2956,48 @@
      "url": "https://www.wayke.se/objekt/fb761536-f31f-4784-b338-19d4cbf86cf8"
     }
    ]
+  },
+  {
+   "id": "blocket-28551819",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28551819",
+   "title": "Tesla Model Y Standard Range RWD|20”| Dragkrok",
+   "spec": "Standard Range RWD|20”| Dragkrok",
+   "price": 409900,
+   "price_ex_vat": 327920,
+   "year": 2024,
+   "km": 36140,
+   "location": "Bollebygd",
+   "region": "Västra Götaland",
+   "seller": "TrendBil Ab",
+   "seller_type": "dealer",
+   "variant": "RWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 430,
+   "published": "2026-11-25",
+   "vin_year": "r"
+  },
+  {
+   "id": "blocket-27538871",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/27538871",
+   "title": "Tesla Model Y Performance",
+   "spec": "Performance",
+   "price": 410000,
+   "price_ex_vat": null,
+   "year": 2023,
+   "km": 59350,
+   "location": "Åkarp",
+   "region": "Skåne",
+   "seller": "Private seller",
+   "seller_type": "private",
+   "variant": "PERF",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 514,
+   "published": "2026-11-25",
+   "vin_year": "P"
   },
   {
    "id": "blocket-27004860",
@@ -2906,7 +3038,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-20",
+   "published": "2026-11-25",
    "vin_year": "N",
    "also": [
     {
@@ -2933,7 +3065,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-21",
+   "published": "2026-11-25",
    "vin_year": "P",
    "also": [
     {
@@ -2964,56 +3096,29 @@
    "vin_year": "R"
   },
   {
-   "id": "blocket-27149267",
+   "id": "blocket-28533777",
    "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27149267",
-   "title": "Tesla Model Y Standard Range 300hk Panorama Navi Backkamera MOMS",
-   "spec": "Standard Range 300hk Panorama Navi Backkamera MOMS",
-   "price": 419900,
-   "price_ex_vat": 335920,
-   "year": 2024,
-   "km": 18420,
-   "location": "Malmö",
-   "region": "Skåne",
-   "seller": "Bilia Outlet Jägersro",
+   "url": "https://www.blocket.se/mobility/item/28533777",
+   "title": "Tesla Model Y Long Range AWD Värmare Rattvärme Drag",
+   "spec": "Long Range AWD Värmare Rattvärme Drag",
+   "price": 419700,
+   "price_ex_vat": 335760,
+   "year": 2023,
+   "km": 62120,
+   "location": "Göteborg",
+   "region": "Västra Götaland",
+   "seller": "Riddermark Bil Göteborg",
    "seller_type": "dealer",
-   "variant": "RWD",
+   "variant": "LR_AWD",
    "gen": "legacy",
    "gen_sure": true,
-   "range_km": 455,
-   "published": "2026-11-22",
-   "vin_year": "r",
+   "range_km": 533,
+   "published": "2026-11-25",
+   "vin_year": "P",
    "also": [
     {
      "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/02796f59-e9a7-4583-9133-9f19d2272502"
-    }
-   ]
-  },
-  {
-   "id": "blocket-27059968",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27059968",
-   "title": "Tesla Model Y Performance AWD 534hk / Drag Kamera Autopilot Värmare",
-   "spec": "Performance AWD 534hk / Drag Kamera Autopilot Värmare",
-   "price": 419900,
-   "price_ex_vat": null,
-   "year": 2024,
-   "km": 92490,
-   "location": "Kungsbacka",
-   "region": "Halland",
-   "seller": "Bilia Outlet Kungsbacka",
-   "seller_type": "dealer",
-   "variant": "PERF",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-11-12",
-   "vin_year": "r",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/c3e5a325-62e0-4d77-9ab3-d56bea33b314"
+     "url": "https://www.wayke.se/objekt/be5d74cb-7598-405f-87ac-9cc9b0bbd29b"
     }
    ]
   },
@@ -3072,10 +3177,6 @@
     {
      "source": "Wayke",
      "url": "https://www.wayke.se/objekt/85d293ee-cfe7-4c61-bec2-e13617ef0ad4"
-    },
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/85d293ee-cfe7-4c61-bec2-e13617ef0ad4"
     }
    ]
   },
@@ -3099,6 +3200,33 @@
    "range_km": 533,
    "published": "2026-11-12",
    "vin_year": "r"
+  },
+  {
+   "id": "blocket-28536360",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28536360",
+   "title": "Tesla Model Y Performance 534hk",
+   "spec": "Performance 534hk",
+   "price": 424800,
+   "price_ex_vat": null,
+   "year": 2023,
+   "km": 65300,
+   "location": "Malmö",
+   "region": "Skåne",
+   "seller": "Kamux Malmö",
+   "seller_type": "dealer",
+   "variant": "PERF",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 514,
+   "published": "2026-11-25",
+   "vin_year": "P",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/01743b86-32d2-4e39-8a27-435feb7295f4"
+    }
+   ]
   },
   {
    "id": "blocket-28359961",
@@ -3141,6 +3269,35 @@
    "range_km": 533,
    "published": "2026-10-16",
    "vin_year": "P"
+  },
+  {
+   "id": "blocket-28531926",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28531926",
+   "title": "Tesla Model Y Long Range Long Range Dragkrok",
+   "spec": "Long Range Long Range Dragkrok",
+   "price": 429500,
+   "price_ex_vat": 343600,
+   "year": 2025,
+   "km": 68740,
+   "location": "Vellinge",
+   "region": "Skåne",
+   "seller": "Vellinge Bilbolag AB",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 600,
+   "published": "2026-11-25",
+   "vin_year": "s",
+   "registered": "2024-10-31",
+   "gen_basis": "first registered 2024-10-31 (before Juniper deliveries)",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/9a857bc2-8acd-45e7-b854-2fc0298e9cfd"
+    }
+   ]
   },
   {
    "id": "blocket-28484179",
@@ -3191,6 +3348,33 @@
    ]
   },
   {
+   "id": "blocket-28187559",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28187559",
+   "title": "Tesla Model Y Long Range AWD Drag Värmepump AP Leasbar/ MOMS",
+   "spec": "Long Range AWD Drag Värmepump AP Leasbar/ MOMS",
+   "price": 429900,
+   "price_ex_vat": 343920,
+   "year": 2023,
+   "km": 56310,
+   "location": "Göteborg",
+   "region": "Västra Götaland",
+   "seller": "Riddermark Bil Göteborg",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 533,
+   "published": "2026-11-26",
+   "vin_year": "P",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/fdc24688-3cc1-4a68-a82e-42670482e8ec"
+    }
+   ]
+  },
+  {
    "id": "blocket-28523188",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28523188",
@@ -3220,33 +3404,6 @@
    ]
   },
   {
-   "id": "blocket-28187559",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28187559",
-   "title": "Tesla Model Y Long Range AWD Drag Värmepump AP Leasbar/ MOMS",
-   "spec": "Long Range AWD Drag Värmepump AP Leasbar/ MOMS",
-   "price": 429900,
-   "price_ex_vat": 343920,
-   "year": 2023,
-   "km": 56310,
-   "location": "Göteborg",
-   "region": "Västra Götaland",
-   "seller": "Riddermark Bil Göteborg",
-   "seller_type": "dealer",
-   "variant": "LR_AWD",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 533,
-   "published": "2026-11-20",
-   "vin_year": "P",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/fdc24688-3cc1-4a68-a82e-42670482e8ec"
-    }
-   ]
-  },
-  {
    "id": "blocket-28406172",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28406172",
@@ -3268,6 +3425,27 @@
    "vin_year": "r"
   },
   {
+   "id": "blocket-28336249",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28336249",
+   "title": "Tesla Model Y Performance | Leasbar | Drag | vinterhjul | Pano | 360",
+   "spec": "Performance | Leasbar | Drag | vinterhjul | Pano | 360",
+   "price": 433900,
+   "price_ex_vat": 347120,
+   "year": 2023,
+   "km": 79620,
+   "location": "Lidköping",
+   "region": "Västra Götaland",
+   "seller": "BegBil",
+   "seller_type": "dealer",
+   "variant": "PERF",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 514,
+   "published": "2026-11-17",
+   "vin_year": "p"
+  },
+  {
    "id": "blocket-28126895",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28126895",
@@ -3285,7 +3463,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-21",
+   "published": "2026-11-26",
    "vin_year": "P",
    "also": [
     {
@@ -3314,27 +3492,6 @@
    "range_km": 533,
    "published": "2026-11-22",
    "vin_year": "P"
-  },
-  {
-   "id": "blocket-28336249",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28336249",
-   "title": "Tesla Model Y Performance | Leasbar | Drag | vinterhjul | Pano | 360",
-   "spec": "Performance | Leasbar | Drag | vinterhjul | Pano | 360",
-   "price": 436900,
-   "price_ex_vat": 349520,
-   "year": 2023,
-   "km": 79620,
-   "location": "Lidköping",
-   "region": "Västra Götaland",
-   "seller": "BegBil",
-   "seller_type": "dealer",
-   "variant": "PERF",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-11-17",
-   "vin_year": "p"
   },
   {
    "id": "blocket-27441298",
@@ -3498,7 +3655,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-21",
+   "published": "2026-11-26",
    "vin_year": "P",
    "also": [
     {
@@ -3625,6 +3782,33 @@
    "vin_year": "p"
   },
   {
+   "id": "blocket-27202781",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/27202781",
+   "title": "Tesla Model Y Performance 534hk Värmepump Rattvärme Navi",
+   "spec": "Performance 534hk Värmepump Rattvärme Navi",
+   "price": 449900,
+   "price_ex_vat": null,
+   "year": 2023,
+   "km": 33680,
+   "location": "Göteborg",
+   "region": "Västra Götaland",
+   "seller": "Riddermark Bil Göteborg",
+   "seller_type": "dealer",
+   "variant": "PERF",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 514,
+   "published": "2026-11-26",
+   "vin_year": "P",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/867d4a1b-ff12-4b10-9b41-e843e4838686"
+    }
+   ]
+  },
+  {
    "id": "blocket-26477948",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/26477948",
@@ -3650,33 +3834,6 @@
     {
      "source": "Wayke",
      "url": "https://www.wayke.se/objekt/891f7c3b-4216-444b-a397-1b251d98e012"
-    }
-   ]
-  },
-  {
-   "id": "blocket-27202781",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27202781",
-   "title": "Tesla Model Y Performance 534hk Värmepump Rattvärme Navi",
-   "spec": "Performance 534hk Värmepump Rattvärme Navi",
-   "price": 449900,
-   "price_ex_vat": null,
-   "year": 2023,
-   "km": 33680,
-   "location": "Göteborg",
-   "region": "Västra Götaland",
-   "seller": "Riddermark Bil Göteborg",
-   "seller_type": "dealer",
-   "variant": "PERF",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-11-19",
-   "vin_year": "P",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/867d4a1b-ff12-4b10-9b41-e843e4838686"
     }
    ]
   },
@@ -3725,7 +3882,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-19",
+   "published": "2026-11-26",
    "vin_year": "R",
    "also": [
     {
@@ -3752,7 +3909,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-22",
+   "published": "2026-11-26",
    "vin_year": "R",
    "also": [
     {
@@ -3810,6 +3967,29 @@
    ]
   },
   {
+   "id": "blocket-28568513",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28568513",
+   "title": "Tesla Model Y Long Range AWD 7-Sits HW4 Drag Autopilot",
+   "spec": "Long Range AWD 7-Sits HW4 Drag Autopilot",
+   "price": 459900,
+   "price_ex_vat": 367920,
+   "year": 2025,
+   "km": 83530,
+   "location": "Kinna",
+   "region": "Västra Götaland",
+   "seller": "7H Bil AB",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 533,
+   "published": "2026-11-26",
+   "vin_year": "S",
+   "registered": "2024-12-06",
+   "gen_basis": "first registered 2024-12-06 (before Juniper deliveries)"
+  },
+  {
    "id": "blocket-27975595",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/27975595",
@@ -3848,7 +4028,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-10-22",
+   "published": "2026-11-25",
    "vin_year": "r",
    "also": [
     {
@@ -4006,6 +4186,29 @@
    ]
   },
   {
+   "id": "blocket-27445085",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/27445085",
+   "title": "Tesla Model Y AWD Performance MOMS Värmepump Dragkrok Pano",
+   "spec": "AWD Performance MOMS Värmepump Dragkrok Pano",
+   "price": 474900,
+   "price_ex_vat": 379920,
+   "year": 2025,
+   "km": 41360,
+   "location": "Rydebäck",
+   "region": "Skåne",
+   "seller": "Mali Bil",
+   "seller_type": "dealer",
+   "variant": "PERF",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 514,
+   "published": "2026-10-15",
+   "vin_year": "s",
+   "registered": "2024-10-24",
+   "gen_basis": "first registered 2024-10-24 (before Juniper deliveries)"
+  },
+  {
    "id": "blocket-28024929",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28024929",
@@ -4050,6 +4253,35 @@
     {
      "source": "Wayke",
      "url": "https://www.wayke.se/objekt/938ac7e8-bdea-4596-9554-620830faed52"
+    }
+   ]
+  },
+  {
+   "id": "blocket-27974996",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/27974996",
+   "title": "Tesla Model Y Performance 534hk Drag Moms",
+   "spec": "Performance 534hk Drag Moms",
+   "price": 479800,
+   "price_ex_vat": 383840,
+   "year": 2025,
+   "km": 65450,
+   "location": "Hisings Backa",
+   "region": "Västra Götaland",
+   "seller": "Kamux Göteborg",
+   "seller_type": "dealer",
+   "variant": "PERF",
+   "gen": "legacy",
+   "gen_sure": true,
+   "range_km": 514,
+   "published": "2026-11-24",
+   "vin_year": "S",
+   "registered": "2024-11-14",
+   "gen_basis": "first registered 2024-11-14 (before Juniper deliveries)",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/98ef9b4d-cd7e-4461-a1cd-6c16987dedd2"
     }
    ]
   },
@@ -4104,35 +4336,6 @@
    "vin_year": "R"
   },
   {
-   "id": "blocket-27974996",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27974996",
-   "title": "Tesla Model Y Performance 534hk Drag Moms",
-   "spec": "Performance 534hk Drag Moms",
-   "price": 484700,
-   "price_ex_vat": 387760,
-   "year": 2025,
-   "km": 65450,
-   "location": "Hisings Backa",
-   "region": "Västra Götaland",
-   "seller": "Kamux Göteborg",
-   "seller_type": "dealer",
-   "variant": "PERF",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-11-24",
-   "vin_year": "S",
-   "registered": "2024-11-14",
-   "gen_basis": "first registered 2024-11-14 (before Juniper deliveries)",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/98ef9b4d-cd7e-4461-a1cd-6c16987dedd2"
-    }
-   ]
-  },
-  {
    "id": "blocket-27002859",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/27002859",
@@ -4154,29 +4357,6 @@
    "vin_year": "S",
    "registered": "2025-02-03",
    "gen_basis": "first registered 2025-02-03 (before Juniper deliveries)"
-  },
-  {
-   "id": "blocket-27445085",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/27445085",
-   "title": "Tesla Model Y AWD Performance MOMS Värmepump Dragkrok Pano",
-   "spec": "AWD Performance MOMS Värmepump Dragkrok Pano",
-   "price": 488900,
-   "price_ex_vat": 391120,
-   "year": 2025,
-   "km": 41360,
-   "location": "Rydebäck",
-   "region": "Skåne",
-   "seller": "Mali Bil",
-   "seller_type": "dealer",
-   "variant": "PERF",
-   "gen": "legacy",
-   "gen_sure": true,
-   "range_km": 514,
-   "published": "2026-10-15",
-   "vin_year": "s",
-   "registered": "2024-10-24",
-   "gen_basis": "first registered 2024-10-24 (before Juniper deliveries)"
   },
   {
    "id": "blocket-28110730",
@@ -4217,7 +4397,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 533,
-   "published": "2026-11-20",
+   "published": "2026-11-25",
    "vin_year": "S",
    "registered": "2024-12-12",
    "gen_basis": "first registered 2024-12-12 (before Juniper deliveries)",
@@ -4296,7 +4476,7 @@
    "gen": "legacy",
    "gen_sure": true,
    "range_km": 514,
-   "published": "2026-11-21",
+   "published": "2026-11-25",
    "vin_year": "R",
    "also": [
     {
@@ -4435,6 +4615,35 @@
    ]
   },
   {
+   "id": "blocket-28315143",
+   "source": "Blocket",
+   "url": "https://www.blocket.se/mobility/item/28315143",
+   "title": "Tesla Model Y Long Range AWD Leasing Drag Pano Värmepump AP",
+   "spec": "Long Range AWD Leasing Drag Pano Värmepump AP",
+   "price": 639800,
+   "price_ex_vat": 511840,
+   "year": 2025,
+   "km": 44080,
+   "location": "Halmstad",
+   "region": "Halland",
+   "seller": "Riddermark bil Halmstad",
+   "seller_type": "dealer",
+   "variant": "LR_AWD",
+   "gen": "juniper",
+   "gen_sure": true,
+   "range_km": 586,
+   "published": "2026-11-26",
+   "vin_year": "S",
+   "registered": "2025-06-25",
+   "gen_basis": "first registered 2025-06-25",
+   "also": [
+    {
+     "source": "Wayke",
+     "url": "https://www.wayke.se/objekt/a3050869-c261-4316-8c64-5cb2cebcad80"
+    }
+   ]
+  },
+  {
    "id": "blocket-28300118",
    "source": "Blocket",
    "url": "https://www.blocket.se/mobility/item/28300118",
@@ -4452,7 +4661,7 @@
    "gen": "unclear",
    "gen_sure": false,
    "range_km": 586,
-   "published": "2026-11-22",
+   "published": "2026-11-26",
    "vin_year": "S",
    "registered": "2025-03-13",
    "gen_basis": "first registered 2025-03-13 (March 2025: either generation)",
@@ -4510,35 +4719,6 @@
     {
      "source": "Wayke",
      "url": "https://www.wayke.se/objekt/715b2adb-a265-4dd4-b913-3f572caa3aa3"
-    }
-   ]
-  },
-  {
-   "id": "blocket-28315143",
-   "source": "Blocket",
-   "url": "https://www.blocket.se/mobility/item/28315143",
-   "title": "Tesla Model Y Long Range AWD MOMS Drag Pano Värmepump AP",
-   "spec": "Long Range AWD MOMS Drag Pano Värmepump AP",
-   "price": 649900,
-   "price_ex_vat": 519920,
-   "year": 2025,
-   "km": 44080,
-   "location": "Halmstad",
-   "region": "Halland",
-   "seller": "Riddermark bil Halmstad",
-   "seller_type": "dealer",
-   "variant": "LR_AWD",
-   "gen": "juniper",
-   "gen_sure": true,
-   "range_km": 586,
-   "published": "2026-11-22",
-   "vin_year": "S",
-   "registered": "2025-06-25",
-   "gen_basis": "first registered 2025-06-25",
-   "also": [
-    {
-     "source": "Wayke",
-     "url": "https://www.wayke.se/objekt/a3050869-c261-4316-8c64-5cb2cebcad80"
     }
    ]
   },
@@ -4610,7 +4790,7 @@
    "gen": "juniper",
    "gen_sure": true,
    "range_km": 600,
-   "published": "2026-11-21",
+   "published": "2026-11-26",
    "vin_year": "T",
    "also": [
     {
